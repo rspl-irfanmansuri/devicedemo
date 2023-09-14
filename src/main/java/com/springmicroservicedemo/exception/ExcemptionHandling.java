@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
  * description: Error Handling
  * version: 1.0
  */
-@ControllerAdvice
+@ControllerAdvice  
 public class ExcemptionHandling {
 
 	@ExceptionHandler(value = Exception.class)
