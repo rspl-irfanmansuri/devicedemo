@@ -16,6 +16,12 @@ import com.springmicroservicedemo.model.Devices;
 import com.springmicroservicedemo.model.dto.DevicesDto;
 import com.springmicroservicedemo.service.DeviceService;
 
+/**
+ * Author: Irfan Mansuri
+ * description: Business logic
+ * version: 1.0
+ */
+
 @Service
 public class DeviceServiceImpl implements DeviceService {
 

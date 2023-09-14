@@ -4,6 +4,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+/**
+ * Author: Irfan Mansuri
+ * description: Error Handling
+ * version: 1.0
+ */
 @ControllerAdvice
 public class ExcemptionHandling {
 

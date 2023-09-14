@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springmicroservicedemo.model.dto.DevicesDto;
 import com.springmicroservicedemo.service.DeviceService;
 
+/**
+ * Author: Irfan Mansuri
+ * description: Entry point of access Device operation
+ * version: 1.0
+ */
 @RestController
 public class DeviceController {
 
