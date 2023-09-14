@@ -62,3 +62,42 @@ ResponseBody:
         }
     ]
 }
+
+
+
+
+Fetch Postman
+URL:http://localhost:8081/fetch
+Method: POST
+Response status: 200
+Response Body:
+[
+    {
+        "id": 1,
+        "manufacturer": "MI",
+        "modelName": "S10",
+        "modelCode": "S10",
+        "deviceType": "PHONE",
+        "macID": "",
+        "imei1": "1234567898765432",
+        "imei2": "1234567898765432",
+        "warranty": [
+            {
+                "warntyId": null,
+                "warrnatyType": "EXTENDED_WARRANTY",
+                "device": null
+            },
+            {
+                "warntyId": null,
+                "warrnatyType": "SCREEN_WARRANTY",
+                "device": null
+            },
+            {
+                "warntyId": null,
+                "warrnatyType": "INTERNAL_WARRANTY",
+                "device": null
+            }
+        ]
+    }
+]
+
