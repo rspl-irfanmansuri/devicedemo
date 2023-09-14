@@ -11,8 +11,8 @@ Postman for Testing
 Create Device Warranty Record Postman collection
 Methos: POST
 URL: http://localhost:8081/createOrUpdate
-Body: {
-    
+Body:
+    {
     "manufacturer": "MI",
     "modelName": "S10",
     "modelCode": "S10",
